@@ -1,0 +1,162 @@
+body{
+    margin: 0 0;
+    padding: 0 0;
+    background-image: url("marble-texture.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    background-color: black;
+    margin: 0px;
+    width: 100%;
+    height: 100px;
+}
+
+.logo {
+    background-size: auto;
+    width: 120px;
+    display: block;
+    margin: auto;
+    float: left;
+}
+
+.links {
+    float: right;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+}
+
+/*main styles*/
+.main {
+    margin: 0 0;
+}
+.merch {
+    width: 100%;
+}
+.video {
+    width: 100%;
+    background-color: #000000;
+    margin: 0 0;
+    .thumbnail {
+        width: 100%;
+    }
+}
+.topkoncert{
+    background-image: linear-gradient(to right, #ac8e40 50%, #000000 50%);
+    width: 100%;
+    height: 100px;
+    margin: 0 0;
+}
+.gold {
+    background-color: #ac8e40;
+    float: left; /* make the boxes float to the left */
+    width: 50%; /* set the width of each box to 50% */
+    height: 550px; /* set the height of each box to 100px */
+    margin: 0 0; /* add a margin to the boxes */
+    display: block;
+    text-align: center;
+    font-size: 25px;
+}
+.sort{
+    float: right; /* make the boxes float to the left */
+    width: 50%; /* set the width of each box to 50% */
+    height: 550px; /* set the height of each box to 100px */
+    background-color: #000000; /* add a background color to the boxes */
+    margin: 0 0; /* add a margin to the boxes */
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.banner{
+    margin: 0 auto;
+    background-color: #000000;
+    width: 100%;
+}
+
+
+/*musik*/
+.top{
+    background-image: linear-gradient(to right, #000000 50%, #ac8e40 50%);
+    width: 100%;
+    height: 100px;
+    margin: 0 0;
+}
+.lefttopmusik{
+    background-color: #000000;
+    float: left; /* make the boxes float to the left */
+    width: 50%; /* set the width of each box to 50% */
+    height: 450px; /* set the height of each box to 100px */
+    margin: 0 0; /* add a margin to the boxes */
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
+.leftbotmusik{
+    background-color: #000000;
+    float: left; /* make the boxes float to the left */
+    width: 50%; /* set the width of each box to 50% */
+    height: 450px; /* set the height of each box to 100px */
+    margin: 0px 0; /* add a margin to the boxes */
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
+.righttopmusik{
+    background-color: #ac8e40;
+    float: left; /* make the boxes float to the left */
+    width: 50%; /* set the width of each box to 50% */
+    height: 450px; /* set the height of each box to 100px */
+    margin: 0 0; /* add a margin to the boxes */
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
+.rightbotmusik{
+    background-color: #ac8e40;
+    float: left; /* make the boxes float to the left */
+    width: 50%; /* set the width of each box to 50% */
+    height: 450px; /* set the height of each box to 100px */
+    margin: 0px 0; /* add a margin to the boxes */
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* Gear */
+.gearright{
+    background-color: #000000;
+    width: 50%;
+    height: 550px;
+    margin: 0 0;
+    color: white;
+    float: right;
+    display: block;
+    text-align: left;
+    font-size: 30px;
+}
+.gearleft{
+    background-color: #000000;
+    width: 50%;
+    height: 550px;
+    margin: 0 0;
+    float: left;
+    display: block;
+}
+
+/* Footer */
+.footer{
+    background-color: #000000;
+    width: 100%;
+    height: 550px;
+    margin: 0 0;
+    display: block;
+}
+
+#wrapper{
+    width: 1100px;
+    margin: 0 auto;
+    background-color: #000000;
+}
